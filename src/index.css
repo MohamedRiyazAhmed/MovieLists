@@ -1,0 +1,16 @@
+body {
+  background-color: #22254b;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+body::-webkit-scrollbar{
+  width: 1%;
+}
+
+.movie-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
