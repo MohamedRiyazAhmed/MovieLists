@@ -6,6 +6,8 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+    <App />        
+  </BrowserRouter>
 )
+
+// main.jsx component is rendering the whole project through app Components

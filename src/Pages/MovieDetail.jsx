@@ -46,7 +46,7 @@ const MovieDetail = () => {
             <p>Original Language: {movieDetail.original_language}</p>
             <p>Popularity count: {movieDetail.popularity}</p>
             <Link to="/">
-              <button className="close">Close</button>
+              <button className="close">Home</button>
             </Link>
           </div>
         </div>
