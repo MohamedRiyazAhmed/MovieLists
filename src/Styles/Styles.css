@@ -14,7 +14,7 @@
   width:100%;
 }
 .poster:hover img{
-  opacity: 0.5   ;
+  opacity: 0.6   ;
 }
 .poster:active{
   opacity: 1;
