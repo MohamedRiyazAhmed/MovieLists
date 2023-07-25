@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = ({ handleMovieInput, handleOnSubmimt }) => {
+const Header = ({ handleMovieInput, handleOnSubmimt,handleOnHome }) => {
   return (
     <>
       <div className="header">
-        <Link to="/">
-          <h1>MOVIE BUFF</h1>
-        </Link>
+        
+          <h1 onClick={handleOnHome} style={{cursor:"pointer"}}>MOVIE BUFF</h1>
+      
         <form action="" onSubmit={handleOnSubmimt}>
           <input
             type="text"
