@@ -46,11 +46,17 @@ const MovieComponent = () => {
       searchMovies("");
     }
   };
+
+  const handleOnHome = (e) =>{
+    e.preventDefault();
+    getMovieRequest(Feautered_API + val);
+  }
   return (
     <div style={{ overflow: "hidden" }}>
       <Header
         handleMovieInput={handleMovieInput}
         handleOnSubmimt={handleOnSubmimt}
+        handleOnHome={handleOnHome}
       />
       <div>
         {loader ? (
