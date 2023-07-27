@@ -6,7 +6,7 @@ const Header = ({ handleMovieInput, handleOnSubmimt,handleOnHome }) => {
     <>
       <div className="header">
         
-          <h1 onClick={handleOnHome} style={{cursor:"pointer"}}>MOVIE BUFF</h1>
+          <h1 onClick={handleOnHome} style={{cursor:"pointer" }}>MOVIE BUFF</h1>
       
         <form action="" onSubmit={handleOnSubmimt}>
           <input

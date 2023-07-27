@@ -20,7 +20,7 @@ const MovieComponent = () => {
     setSearchMovies(e.target.value);
   };
 
-  const getMovieRequest = async (api) => {
+  const getMovieRequest = async (api) => {  
     setLoader(true);
 
     // const url = `http://www.omdbapi.com/?s=${
