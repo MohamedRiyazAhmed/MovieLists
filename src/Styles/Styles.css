@@ -31,14 +31,14 @@
   border-radius: 10%;
 }
 .grid::-webkit-scrollbar-thumb {
-  background-color: #8a8ed0;
+  background-color: #454546;
 }
 
 .grid::-webkit-scrollbar-thumb:hover {
-  background-color: #7378c5;
+  background-color: #313131;
 }
 :hover .grid::-webkit-scrollbar-track {
-  background-color: #373b69;
+  background-color: #1a1a1b;
 }
 
 .title {
@@ -54,7 +54,7 @@
 .header {
   text-align: center;
   color: rgb(204, 202, 202);
-  padding: 10px;
+  padding: 3px;
   background-image: linear-gradient(
     to right,
     rgb(68, 68, 68),
@@ -90,15 +90,15 @@ header.h1 {
   font-size: 1rem;
   padding: 0.5rem 1rem;
 
-  -webkit-transition: width 0.5s ease-in-out;
-  transition: width 0.5s ease-in-out;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
 }
 .input::placeholder {
   color: #848586;
 }
 
 .input:focus {
-  background-color: #22254b;
+  background-color: #101010;
   outline: none;
   width: 100%;
 }
